@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Actor&display=swap');
+
+@font-face {
+    font-family: cocogoose;
+    src: url(../font/cocogoose.ttf);
+}
+
+@font-face {
+    font-family: cocogooseSemi;
+    src: url(../font/cocogoose-semibold.ttf);
+}
+
+@font-face {
+    font-family: cocogooseBold;
+    src: url(../font/cocogoose-bold.ttf);
+}
+
+@font-face {
+    font-family: coolvetica;
+    src: url(../font/coolvetica.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ECECEC;
+    font-family: cocogoose;
+    color: #333333;
+}
+
+
+
+
+/* ---------------------- Footer by Apri ----------------------- */
+
+footer {
+    width: 100%;
+    background-color: #ECECEC;
+    display: flex;
+}
+
+.s-left {
+    width: 50%;
+    padding: 2vw 3vw 2vw 12.7vw;
+    text-align: right;
+    margin: auto;
+}
+
+.s-left img {
+    width: 45%;
+}
+
+.s-left p {
+    font-family: 'Actor', sans-serif;
+    font-size: 1.4vmax;
+    margin-top: 2vw;
+}
+
+.s-left .jogja {
+    font-family: cocogooseBold;
+    font-size: 1.6vmax;
+    margin-top: 2vw;
+}
+
+.s-left .jogja-1 {
+    font-family: coolvetica;
+    font-size: 1.4vmax;
+    margin-top: 0.2vw;
+}
+
+.s-right {
+    width: 50%;
+    padding: 2vw 15vw 2vw 3vw;
+    margin: auto;
+}
+
+.s-right .kontak {
+    font-family: cocogooseBold;
+    font-size: 2vmax;
+}
+
+table {
+    width: 30vw;
+    height: 8vw;
+    margin-top: 1vw;
+}
+
+table tr {
+    margin-top: 0.5vw;
+}
+
+tr td {
+    font-family: coolvetica;
+    font-size: 1.4vmax;
+    width: 1vw;
+}
+
+.btn-footer {
+    width: 12vw;
+    margin-top: 2vw;
+}
+
+.btn-footer button {
+    width: 12vw;
+    height: 3vw;
+    font-family: cocogooseSemi;
+    font-size: 1.2vw;
+    color: #FFFFFF;
+    background: #0080FF;
+    border: none;
+    border-radius: 15px;
+    margin-top: 0.4vw;
+    cursor: pointer;
+}
+
+.btn-footer .chat:hover {
+    background: #024b95;
+}
+
+.btn-footer .another {
+    background: #ECECEC;
+    border: 1px solid #0080FF;
+    color: #0080FF;
+}
+
+.btn-footer .another:hover {
+    background: #0080FF;
+    color: #ECECEC;
+}
+
+.btn-footer p {
+    text-align: center;
+    margin-top: 0.4vw;
+    color: #A9A9A9;
+    font-size: 1vmax;
+}
+
+.copyright {
+    display: block;
+    text-align: center;
+    font-family: coolvetica;
+    font-size: 1.2vmax;
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+}
